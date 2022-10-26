@@ -19,13 +19,13 @@ export function Header() {
 
       <ItemsOnRight>
         <LocationBadge>
-          <MapPin size={22} />
+          <MapPin size={22} weight="fill" />
           Angra dos Reis, RJ
         </LocationBadge>
 
         <NavLink to="/checkout">
           <CheckoutButton>
-            <ShoppingCart size={22} />
+            <ShoppingCart size={22} weight="fill" />
           </CheckoutButton>
         </NavLink>
       </ItemsOnRight>
